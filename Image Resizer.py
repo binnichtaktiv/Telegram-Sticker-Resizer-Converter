@@ -15,7 +15,7 @@ def resize_and_convert_image(input_path, output_path):
 
         image.save(output_path, "PNG")
 
-source_folder = input("Enter path with all your images that you want to rezise:\n")
+source_folder = input("Enter folder path with all your images that you want to rezise:\n")
 target_folder = input("Enter output path\n")
 
 if not os.path.exists(target_folder):
